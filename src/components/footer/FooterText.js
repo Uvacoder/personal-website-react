@@ -2,12 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import Resume from '../../settings/resume.json';
-import {
-  HeartIcon,
-  HeartIconFilled,
-  SponsorButton,
-} from '../content/SponsorButton';
+//import Resume from '../../settings/resume.json';
+import { HeartIcon } from '../content/SponsorButton';
 
 const useStyles = makeStyles((theme) => ({
   footerText: {
